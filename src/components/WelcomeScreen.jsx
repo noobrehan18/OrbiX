@@ -240,15 +240,6 @@ const WelcomeScreen = ({ onStart }) => {
         >
           🌙
         </motion.div>
-
-        {/* Reset Welcome button */}
-        <button
-          className="fixed bottom-4 right-4 z-50 bg-red-600/80 hover:bg-red-700/80
-                     text-white px-3 py-2 rounded-lg text-sm transition-colors backdrop-blur-sm
-                     sm:px-4 sm:py-3 sm:text-base"
-        >
-          Reset Welcome
-        </button>
       </motion.div>
     </AnimatePresence>
   );
