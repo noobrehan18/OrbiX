@@ -1,6 +1,7 @@
 # 🌌 OrbiX - Interactive 3D Solar System Explorer
 
 <div align="center">
+<img src="https://raw.githubusercontent.com/noobrehan18/OrbiX/main/public/logo.png" alt="Orbit Logo" width="120" height="120">
 
 ![OrbiX Logo](https://img.shields.io/badge/OrbiX-Solar%20System%20Explorer-06b6d4?style=for-the-badge&logo=rocket)
 ![React](https://img.shields.io/badge/React-18.0+-61dafb?style=for-the-badge&logo=react)
