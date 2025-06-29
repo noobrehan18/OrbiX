@@ -215,6 +215,9 @@ const WelcomeScreen = ({ onStart }) => {
           >
             <p>Experience the wonders of our solar system in stunning 3D</p>
             <p className="mt-1">Click and drag to explore • Scroll to zoom • Click planets for details</p>
+            <p className="mt-4 flex items-center justify-center gap-1 text-base font-semibold bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400 bg-clip-text text-transparent">
+              Made with <span role="img" aria-label="love">❤️</span> by rehan
+            </p>
           </motion.div>
         </div>
 
