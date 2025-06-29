@@ -44,16 +44,14 @@ function App() {
       ) : (
         <div className="relative">
           <Solar />
-          {/* Reset button for development */}
-          {process.env.NODE_ENV === 'development' && (
-            <button
-              onClick={handleReset}
-              className="fixed bottom-4 right-4 z-50 bg-red-600/80 hover:bg-red-700/80 
-                       text-white px-3 py-2 rounded-lg text-sm transition-colors backdrop-blur-sm"
-            >
-              Reset Welcome
-            </button>
-          )}
+          {/* Reset button - always visible now */}
+          <button
+            onClick={handleReset}
+            className="fixed bottom-4 right-4 z-50 bg-red-600/80 hover:bg-red-700/80 
+                     text-white px-3 py-2 rounded-lg text-sm transition-colors backdrop-blur-sm"
+          >
+            Reset Welcome
+          </button>
         </div>
       )}
     </>
